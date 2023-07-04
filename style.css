@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    list-style: none;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body {
+    background-color: #f4f493;
+}
+.carousel {
+    max-width: 1000px;
+    border: 1px solid #000;
+    overflow: hidden;
+    height: 600px;
+    margin: 50px auto;
+    background-color: #d67de2;
+}
+.carousel-indicators {
+    transition: 1s;
+    border-radius: 10px;
+}
+.carousel-indicators:hover {
+    background-color: #510751;
+}
+.carousel-indicators [data-bs-target] {
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    margin: 0 15px;
+}
+.carousel-inner {
+    margin: 150px 250px;
+}
+.carousel-item {
+    border: 12px ridge #400c47;
+    background-color: #3a0f3f;
+    width: 500px;
+    height: 300px;
+}
+h5 {
+    color: #ffffff;
+    margin-bottom: 30px;
+}
+p {
+    color: #ffffff;
+}
+.carousel-control-prev-icon {
+    background-image: url(./photo/pngegg\ \(2\).png);
+    transform: rotateZ(180deg);
+    width: 50%;
+    height: 100px;
+    transition: 0.5s;
+}
+.carousel-control-prev-icon:hover {
+    transform: scale(1.3) rotate(180deg);
+}
+.carousel-control-next-icon {
+    background-image: url(./photo/pngegg\ \(2\).png);
+    width: 50%;
+    height: 100px;
+    transition: 0.5s;
+}
+.carousel-control-next-icon:hover {
+    transform: scale(1.3);
+}
+form {
+    left: 50%;
+    margin: 50px 0;
+}
+.mb-3 {
+    max-width: 600px;
+    margin: 0 auto;
+}
+.form-label {
+}
+.form-control {
+    background-color: #00000000;
+    border: none;
+    border-bottom: 6px ridge #3a0f3f;
+    border-left: 6px ridge #3a0f3f;
+    border-radius: 15px;
+}
+.form-control:focus {
+    background-color: #762376;
+    color: #ffffff;
+    border-bottom: none;
+    border-left: none;
+}
+.form-text {
+    text-align: end;
+}
+.form-check {
+}
+.form-check-input {
+}
+.form-check-label {
+}
+.btn {
+    position: sticky;
+    left: 30.5%;
+    margin-top: 20px;
+    background-color: #6c1a77;
+}
+.btn:hover {
+    background-color: #c136c1;
+    border: 5px ridge #510751;
+    color: #ffffff;
+}
+.btn-primary {
+}
